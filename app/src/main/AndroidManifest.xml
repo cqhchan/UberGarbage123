@@ -10,15 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="OnlineMaps.Key"
+            android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
+        <meta-data
+            android:name="OnlineSearch.Key"
+            android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
+        <meta-data android:name="OnlineTraffic.Key" android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
+
+        <meta-data
+            android:name="OnlineRouting.Key"
+            android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
+
+        <activity android:name=".MapActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <meta-data android:name="OnlineMaps.Key" android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
-        <meta-data android:name="OnlineSearch.Key" android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
-        <meta-data android:name="OnlineRouting.Key" android:value="tbZNIdyRudfxGDXzkbeicyhD5TPMedkd" />
     </application>
 
 </manifest>
